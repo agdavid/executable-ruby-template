@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+#1. enter your program through this executable file.
+#1a. tell interpreter to use Ruby with shebang, above.
+#1b. load the config/environment.
+
+require_relative '../config/environment'
