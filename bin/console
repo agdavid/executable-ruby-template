@@ -9,3 +9,13 @@ end
 require_relative '../config/environment'
 
 IRB.start
+
+#What this file does:
+  #Overall: this is the sandbox that loads an IRB session so you can play with your program
+    #1. loads irb for an integrated ruby session
+    #2. defines a method #reload! which uses require_all gem to reload any updated files in 'lib' folder
+    #3. requires the 'config/environment', which in turn loads Ruby file dependencies
+    #4. starts IRB session
+
+  #Tip: after any change to your 'lib' Ruby files, type the 'reload!' command in irb
+  #this will load your updated files into your sandbox

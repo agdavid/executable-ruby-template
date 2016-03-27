@@ -1,7 +1,16 @@
 #!/usr/bin/env ruby
 
-#1. enter your program through this executable file.
-#1a. tell interpreter to use Ruby with shebang, above.
-#1b. load the config/environment.
-
 require_relative '../config/environment'
+
+#What this file does:
+  #Overall: this is the entry point into your program by the user.
+    #1. shebang tells interpreter that this is Ruby language
+    #2. requires the 'config/environment' (which in turn loads your Ruby file dependencies)
+  
+  #Tip: if typing './bin/name' from Terminal does not execute the program,
+    # - type 'ls -lah' - to see list of all human readable attributes
+    # - does it have an 'x' - check if attributes has an 'x'
+    # - type 'chmod +x name' - add executable attribute to file
+
+  #You can rename this 'name' file to what you want
+    
